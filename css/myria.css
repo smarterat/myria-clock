@@ -1,0 +1,244 @@
+body {
+  margin: 0px; padding: 0px;
+  width: auto; height: auto;
+  text-align: center; color: #FFF;
+  font-family: "Share Tech Mono", Helvetica, Arial, sans-serif;
+  overflow: auto;
+}
+
+#logo {
+  position: fixed; z-index: 1;
+  top: 20px; right: 30px;
+  margin: 0px auto; padding: 0px;
+  width: auto; height: auto;
+}
+
+#logo a img {
+  width: 100px; border: 0px;
+  filter: alpha(opacity=50); opacity: 0.5;
+}
+
+#logo a img:hover {
+  filter: alpha(opacity=100); opacity: 1;
+}
+
+#myrPro {
+  position: fixed; z-index: -1;
+  top: 0px; bottom: 0px;
+  margin: 0px auto; padding: 0px;
+  width: 100%; height: auto;
+}
+
+#myrCon {
+  display: table; position: absolute;
+  top: 0px; right: 0px; bottom: 0px; left: 0px;
+  margin: 0px auto; padding: 0px;
+  width: 100%; height: 100%;
+  text-align: center;
+}
+
+#myrClock {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#myrClock h1 {
+  position: relative; z-index: 1;
+  display: inline-block;
+  margin: 0px; padding: 20px 50px;
+  width: auto; height: auto;
+  font-size: 172px; font-weight: 400;
+}
+
+/* Time of day gradients */
+.t0 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#012459), to(#001322));
+  background-image: -webkit-linear-gradient(top, #012459, #001322); 
+  background-image:    -moz-linear-gradient(top, #012459, #001322);
+  background-image:     -ms-linear-gradient(top, #012459, #001322);
+  background-image:      -o-linear-gradient(top, #012459, #001322);
+}
+
+.t1 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#012459), to(#001322));
+  background-image: -webkit-linear-gradient(top, #012459, #001322); 
+  background-image:    -moz-linear-gradient(top, #012459, #001322);
+  background-image:     -ms-linear-gradient(top, #012459, #001322);
+  background-image:      -o-linear-gradient(top, #012459, #001322);
+}
+
+.t2 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003972), to(#001322));
+  background-image: -webkit-linear-gradient(top, #003972, #001322); 
+  background-image:    -moz-linear-gradient(top, #003972, #001322);
+  background-image:     -ms-linear-gradient(top, #003972, #001322);
+  background-image:      -o-linear-gradient(top, #003972, #001322);
+}
+
+.t3 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#004372), to(#00182B));
+  background-image: -webkit-linear-gradient(top, #004372, #00182B); 
+  background-image:    -moz-linear-gradient(top, #004372, #00182B);
+  background-image:     -ms-linear-gradient(top, #004372, #00182B);
+  background-image:      -o-linear-gradient(top, #004372, #00182B);
+}
+
+.t4 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#016091), to(#011D34));
+  background-image: -webkit-linear-gradient(top, #016091, #011D34); 
+  background-image:    -moz-linear-gradient(top, #016091, #011D34);
+  background-image:     -ms-linear-gradient(top, #016091, #011D34);
+  background-image:      -o-linear-gradient(top, #016091, #011D34);
+}
+
+.t5 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#016792), to(#00182B));
+  background-image: -webkit-linear-gradient(top, #016792, #00182B); 
+  background-image:    -moz-linear-gradient(top, #016792, #00182B);
+  background-image:     -ms-linear-gradient(top, #016792, #00182B);
+  background-image:      -o-linear-gradient(top, #016792, #00182B);
+}
+
+.t6 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#07729F), to(#042C47));
+  background-image: -webkit-linear-gradient(top, #07729F, #042C47); 
+  background-image:    -moz-linear-gradient(top, #07729F, #042C47);
+  background-image:     -ms-linear-gradient(top, #07729F, #042C47);
+  background-image:      -o-linear-gradient(top, #07729F, #042C47);
+}
+
+.t7 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#12A1C0), to(#07506E));
+  background-image: -webkit-linear-gradient(top, #12A1C0, #07506E); 
+  background-image:    -moz-linear-gradient(top, #12A1C0, #07506E);
+  background-image:     -ms-linear-gradient(top, #12A1C0, #07506E);
+  background-image:      -o-linear-gradient(top, #12A1C0, #07506E);
+}
+
+.t8 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74D4CC), to(#1386A6));
+  background-image: -webkit-linear-gradient(top, #74D4CC, #1386A6); 
+  background-image:    -moz-linear-gradient(top, #74D4CC, #1386A6);
+  background-image:     -ms-linear-gradient(top, #74D4CC, #1386A6);
+  background-image:      -o-linear-gradient(top, #74D4CC, #1386A6);
+}
+
+.t9 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efeebc), to(#61d0cf));
+  background-image: -webkit-linear-gradient(top, #efeebc, #61d0cf); 
+  background-image:    -moz-linear-gradient(top, #efeebc, #61d0cf);
+  background-image:     -ms-linear-gradient(top, #efeebc, #61d0cf);
+  background-image:      -o-linear-gradient(top, #efeebc, #61d0cf);
+}
+
+.t10 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fee154), to(#a3dec6));
+  background-image: -webkit-linear-gradient(top, #fee154, #a3dec6); 
+  background-image:    -moz-linear-gradient(top, #fee154, #a3dec6);
+  background-image:     -ms-linear-gradient(top, #fee154, #a3dec6);
+  background-image:      -o-linear-gradient(top, #fee154, #a3dec6);
+}
+
+.t11 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdc352), to(#e8ed92));
+  background-image: -webkit-linear-gradient(top, #fdc352, #e8ed92); 
+  background-image:    -moz-linear-gradient(top, #fdc352, #e8ed92);
+  background-image:     -ms-linear-gradient(top, #fdc352, #e8ed92);
+  background-image:      -o-linear-gradient(top, #fdc352, #e8ed92);
+}
+
+.t12 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffac6f), to(#ffe467));
+  background-image: -webkit-linear-gradient(top, #ffac6f, #ffe467); 
+  background-image:    -moz-linear-gradient(top, #ffac6f, #ffe467);
+  background-image:     -ms-linear-gradient(top, #ffac6f, #ffe467);
+  background-image:      -o-linear-gradient(top, #ffac6f, #ffe467);
+}
+
+.t13 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fda65a), to(#ffe467));
+  background-image: -webkit-linear-gradient(top, #fda65a, #ffe467); 
+  background-image:    -moz-linear-gradient(top, #fda65a, #ffe467);
+  background-image:     -ms-linear-gradient(top, #fda65a, #ffe467);
+  background-image:      -o-linear-gradient(top, #fda65a, #ffe467);
+}
+
+.t14 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fd9e58), to(#ffe467));
+  background-image: -webkit-linear-gradient(top, #fd9e58, #ffe467); 
+  background-image:    -moz-linear-gradient(top, #fd9e58, #ffe467);
+  background-image:     -ms-linear-gradient(top, #fd9e58, #ffe467);
+  background-image:      -o-linear-gradient(top, #fd9e58, #ffe467);
+}
+
+.t15 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f18448), to(#ffd364));
+  background-image: -webkit-linear-gradient(top, #f18448, #ffd364); 
+  background-image:    -moz-linear-gradient(top, #f18448, #ffd364);
+  background-image:     -ms-linear-gradient(top, #f18448, #ffd364);
+  background-image:      -o-linear-gradient(top, #f18448, #ffd364);
+}
+
+.t16 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f06b7e), to(#f9a856));
+  background-image: -webkit-linear-gradient(top, #f06b7e, #f9a856); 
+  background-image:    -moz-linear-gradient(top, #f06b7e, #f9a856);
+  background-image:     -ms-linear-gradient(top, #f06b7e, #f9a856);
+  background-image:      -o-linear-gradient(top, #f06b7e, #f9a856);
+}
+
+.t17 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ca5a92), to(#f4896b));
+  background-image: -webkit-linear-gradient(top, #ca5a92, #f4896b); 
+  background-image:    -moz-linear-gradient(top, #ca5a92, #f4896b);
+  background-image:     -ms-linear-gradient(top, #ca5a92, #f4896b);
+  background-image:      -o-linear-gradient(top, #ca5a92, #f4896b);
+}
+
+.t18 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5b2c83), to(#d1628b));
+  background-image: -webkit-linear-gradient(top, #5b2c83, #d1628b); 
+  background-image:    -moz-linear-gradient(top, #5b2c83, #d1628b);
+  background-image:     -ms-linear-gradient(top, #5b2c83, #d1628b);
+  background-image:      -o-linear-gradient(top, #5b2c83, #d1628b);
+}
+
+.t19 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#371a79), to(#713684));
+  background-image: -webkit-linear-gradient(top, #371a79, #713684); 
+  background-image:    -moz-linear-gradient(top, #371a79, #713684);
+  background-image:     -ms-linear-gradient(top, #371a79, #713684);
+  background-image:      -o-linear-gradient(top, #371a79, #713684);
+}
+
+.t20 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#28166b), to(#45217c));
+  background-image: -webkit-linear-gradient(top, #28166b, #45217c); 
+  background-image:    -moz-linear-gradient(top, #28166b, #45217c);
+  background-image:     -ms-linear-gradient(top, #28166b, #45217c);
+  background-image:      -o-linear-gradient(top, #28166b, #45217c);
+}
+
+.t21 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#192861), to(#372074));
+  background-image: -webkit-linear-gradient(top, #192861, #372074); 
+  background-image:    -moz-linear-gradient(top, #192861, #372074);
+  background-image:     -ms-linear-gradient(top, #192861, #372074);
+  background-image:      -o-linear-gradient(top, #192861, #372074);
+}
+
+.t22 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#040b3c), to(#233072));
+  background-image: -webkit-linear-gradient(top, #040b3c, #233072); 
+  background-image:    -moz-linear-gradient(top, #040b3c, #233072);
+  background-image:     -ms-linear-gradient(top, #040b3c, #233072);
+  background-image:      -o-linear-gradient(top, #040b3c, #233072);
+}
+
+.t23 {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#040b3c), to(#012459));
+  background-image: -webkit-linear-gradient(top, #040b3c, #012459); 
+  background-image:    -moz-linear-gradient(top, #040b3c, #012459);
+  background-image:     -ms-linear-gradient(top, #040b3c, #012459);
+  background-image:      -o-linear-gradient(top, #040b3c, #012459);
+}
